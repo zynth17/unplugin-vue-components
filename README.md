@@ -31,7 +31,11 @@ On-demand components auto importing for Vue.
 npm i unplugin-vue-components -D
 ```
 
+
+
 > **`vite-plugin-components` has been renamed to `unplugin-vue-components`**, see the [migration guide](#migrate-from-vite-plugin-components).
+
+> as issues on [volar #1495](https://github.com/johnsoncodehk/volar/issues/1495) if you are using pnpm, please install `@vue/runtime-core` to have props autocompletion.
 
 <details>
 <summary>Vite</summary><br>
